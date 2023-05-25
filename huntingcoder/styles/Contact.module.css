@@ -36,3 +36,11 @@
     margin: 6px;
   }
   
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        max-width: 88vw;
+        margin: auto;
+        padding: 20px 0px;
+    }
+  }

@@ -8,7 +8,6 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 // Step 1: Collect all the files from the blogdata directory
 // Step 2: Iterate through them and display them
 const Blog = (props) => {
-  console.log(props);
   const [blogs, setBlogs] = useState(props.allBlogs);
   const [count, setCount] = useState(2)
 
@@ -47,10 +46,6 @@ const Blog = (props) => {
         })}
         </InfiniteScroll>
 
-
-
-        
-
       </main>
     </div>
   )
@@ -63,7 +58,6 @@ export async function getStaticProps(context) {
   let allBlogs = [];
   for (let index = 0; index < 2; index++) {
     const item = data[index];
-    console.log(item)
     myfile = await fs.promises.readFile(('blogdata/' + item), 'utf-8')
     allBlogs.push(JSON.parse(myfile))
   }

@@ -11,7 +11,6 @@ const Contact = () => {
   
   const handleSubmit = (e) =>{
     e.preventDefault()
-    console.log(name, email, phone, desc)
     async function postJSON(data) {
   try {
     const response = await fetch("http://localhost:3000/api/postcontact", {
@@ -23,7 +22,6 @@ const Contact = () => {
     });
 
     const result = await response.text();
-    console.log("Success:", result);
     alert("Thanks for contacting us");
     setname('')
     setphone('')

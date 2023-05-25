@@ -19,3 +19,12 @@
 .aboutul{
     padding: 5px 40px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 20px auto;
+        max-width: 90vw;
+        
+    }
+  }

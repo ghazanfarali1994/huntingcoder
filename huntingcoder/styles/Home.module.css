@@ -241,7 +241,6 @@
   margin: 0 24px;
   list-style: none;
   font-weight: bold;
-  font-family: system-ui;
 }
 
 .title {
@@ -288,3 +287,13 @@
   cursor: pointer;
   margin: 6px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .mainnav ul li {
+    margin: 0 6px;
+    list-style: none;
+    /* font-weight: bold; */
+  }
+}
+
