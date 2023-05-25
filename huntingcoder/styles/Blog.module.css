@@ -24,3 +24,14 @@
   .blogItemp{
     max-width: 45vw;
   }
+
+  .btn {
+    color: white;
+    background: black;
+    padding: 4px 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 6px;
+  }
+
+  

@@ -1,0 +1,21 @@
+.container{
+    margin: 25px auto;
+    max-width: 45vw;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.abouth2{
+    padding: 5px;
+}
+
+.aboutp{
+    padding: 5px;
+}
+
+.aboutul{
+    padding: 5px 40px;
+}
