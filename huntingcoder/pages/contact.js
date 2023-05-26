@@ -62,7 +62,7 @@ postJSON(data);
         <div className={styles.mb3}>
           <label htmlFor="email" className={styles.formlabel}>Email address</label>
           <input className={styles.input} type="email" onChange={handleChange} id="email" name='email' value={email} aria-describedby="emailHelp" />
-          <div id="emailHelp" className={styles.formtext}>We'll never share your email with anyone else.</div>
+          <div id="emailHelp" className={styles.formtext}>We will never share your email with anyone else.</div>
         </div>
         <div className={styles.mb3}>
           <label htmlFor="phone" className={styles.formlabel}>Phone</label>
